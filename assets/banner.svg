@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 作者 shingja · github.com/shingja/ustb-steam-ipv6-accelerator · PolyForm Noncommercial 1.0.0 · 保留版权标识⁠​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​​‌​​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​‌​‌​‌‌​​​​‌​‌‌​‌‌​‌​​‌​‌‌​‌​‌‌​‌​​‌​‌‌‌​​​​​‌‌‌​‌‌​​​‌‌​‌‌​​​‌​‌‌​‌​‌‌​​​​‌​‌‌​​​‌‌​‌‌​​​‌‌​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌‌‌‌​‌‌‌​​‌​​​‌​‌‌‌‌​​‌‌​​‌​​​‌‌​​​​​​‌‌​​‌​​​‌‌​‌‌​​​‌​‌‌‌‌​‌‌‌​‌‌​​​‌‌​​‌​⁠ -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="北京科技大学校园网 IPv6 下载 Steam 加速">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#101a33"/>
+      <stop offset="1" stop-color="#1a1030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#ff6b9d"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+
+  <g opacity="0.5" stroke="url(#accent)" stroke-width="1.2" fill="none">
+    <path d="M780 70 L880 40 L980 78 L1050 48"/>
+    <path d="M780 70 L850 120 L960 132 L1050 100"/>
+    <path d="M850 120 L910 190 L1010 210"/>
+    <path d="M960 132 L1010 210"/>
+  </g>
+  <g fill="#22d3ee">
+    <circle cx="780" cy="70" r="4"/>
+    <circle cx="880" cy="40" r="3"/>
+    <circle cx="980" cy="78" r="4"/>
+    <circle cx="1050" cy="48" r="3"/>
+    <circle cx="850" cy="120" r="4"/>
+    <circle cx="960" cy="132" r="3"/>
+    <circle cx="910" cy="190" r="4"/>
+    <circle cx="1010" cy="210" r="3"/>
+  </g>
+  <g fill="#ff6b9d">
+    <circle cx="780" cy="70" r="2"/>
+    <circle cx="960" cy="132" r="2"/>
+    <circle cx="1010" cy="210" r="2"/>
+  </g>
+
+  <g font-family="'Microsoft YaHei','Noto Sans SC','PingFang SC',sans-serif">
+    <text x="72" y="92" fill="#22d3ee" font-size="18" letter-spacing="3">北京科技大学 · 校园网 / CERNET2</text>
+    <text x="72" y="160" fill="#f8fafc" font-size="46" font-weight="700">IPv6 下载 Steam 加速</text>
+    <text x="72" y="200" fill="#cbd5e1" font-size="20">让 Steam 下载走校园 IPv6，而不是 IPv4 流量</text>
+    <text x="72" y="248" fill="#94a3b8" font-size="15" letter-spacing="1.5">WINDOWS 10/11 · PYTHON 3.9+ · STANDARD LIBRARY ONLY · REVERSIBLE HOSTS</text>
+  </g>
+
+  <g transform="translate(72 268)">
+    <rect width="128" height="22" rx="11" fill="#22d3ee" fill-opacity="0.14" stroke="#22d3ee" stroke-opacity="0.55"/>
+    <text x="64" y="15" text-anchor="middle" fill="#a5f3fc" font-size="11" font-family="'Microsoft YaHei',sans-serif">非官方个人项目</text>
+    <rect x="140" width="96" height="22" rx="11" fill="#ff6b9d" fill-opacity="0.12" stroke="#ff6b9d" stroke-opacity="0.5"/>
+    <text x="188" y="15" text-anchor="middle" fill="#fecdd3" font-size="11" font-family="'Microsoft YaHei',sans-serif">PolyForm NC</text>
+    <rect x="246" width="216" height="22" rx="11" fill="#fde047" fill-opacity="0.10" stroke="#fde047" stroke-opacity="0.5"/>
+    <text x="354" y="15" text-anchor="middle" fill="#fef08a" font-size="11" font-family="'Microsoft YaHei',sans-serif">学习用途 · 禁止绕过计费</text>
+  </g>
+
+  <g transform="translate(900 246)" filter="url(#glow)">
+    <text x="0" y="0" fill="#f8fafc" font-size="28" font-weight="700" font-family="Consolas,monospace">2001:da8::/32</text>
+    <text x="0" y="22" fill="#94a3b8" font-size="12" font-family="Consolas,monospace">IPv6 CDN RELAY</text>
+  </g>
+</svg>

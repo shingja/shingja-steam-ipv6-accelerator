@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 作者 shingja · github.com/shingja/ustb-steam-ipv6-accelerator · PolyForm Noncommercial 1.0.0 · 保留版权标识⁠​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​​‌​​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​‌​‌​‌‌​​​​‌​‌‌​‌‌​‌​​‌​‌‌​‌​‌‌​‌​​‌​‌‌‌​​​​​‌‌‌​‌‌​​​‌‌​‌‌​​​‌​‌‌​‌​‌‌​​​​‌​‌‌​​​‌‌​‌‌​​​‌‌​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌‌‌‌​‌‌‌​​‌​​​‌​‌‌‌‌​​‌‌​​‌​​​‌‌​​​​​​‌‌​​‌​​​‌‌​‌‌​​​‌​‌‌‌‌​‌‌‌​‌‌​​​‌‌​​‌​⁠ -->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="660" viewBox="0 0 960 660" role="img" aria-label="工具交互界面示意图">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#15112b"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="960" height="620" fill="#070b15"/>
+  <rect x="30" y="28" width="900" height="604" rx="16" fill="url(#bg)" stroke="#22d3ee" stroke-opacity="0.28" filter="url(#shadow)"/>
+
+  <rect x="30" y="28" width="900" height="42" rx="16" fill="#111a30"/>
+  <rect x="30" y="56" width="900" height="14" fill="#111a30"/>
+  <circle cx="56" cy="49" r="6" fill="#ff6b9d"/>
+  <circle cx="78" cy="49" r="6" fill="#fde047"/>
+  <circle cx="100" cy="49" r="6" fill="#22d3ee"/>
+  <text x="480" y="54" text-anchor="middle" fill="#94a3b8" font-size="13" font-family="Consolas,monospace">Steam IPv6 Download Accelerator</text>
+
+  <g font-family="Consolas,'Microsoft YaHei',monospace" font-size="14" xml:space="preserve">
+    <text x="58" y="100" fill="#22d3ee">╭──────────────────────────────────────────────────────────────╮</text>
+    <text x="58" y="122" fill="#f8fafc">│ <tspan fill="#ffffff" font-weight="700">Steam 下载 CDN IPv6 加速</tspan>  <tspan fill="#67e8f9">v2.0.0</tspan>                              │</text>
+    <text x="58" y="144" fill="#22d3ee">│ 北京科技大学校园网 / CERNET2                                 │</text>
+    <text x="58" y="166" fill="#fde047">│ 学习用途 · 禁止绕过校园网认证 / 计费 / 流量管理              │</text>
+    <text x="58" y="188" fill="#22d3ee">╰──────────────────────────────────────────────────────────────╯</text>
+
+    <text x="58" y="220" fill="#fde047">╭──────────────────────────────────────────────────────────────────────╮</text>
+    <text x="58" y="242" fill="#fde047">│ 学习用途声明                                                         │</text>
+    <text x="58" y="264" fill="#e2e8f0">│ 学习用途：本工具用于学习 IPv6 / DNS / hosts / TCP 转发与网络工程。   │</text>
+    <text x="58" y="286" fill="#e2e8f0">│ 禁止用于绕过校园网认证、计费、流量管理、账号共享或商业代下。         │</text>
+    <text x="58" y="308" fill="#e2e8f0">│ 使用前请确认符合学校网络管理规定；后果由使用者承担。                 │</text>
+    <text x="58" y="330" fill="#fde047">╰──────────────────────────────────────────────────────────────────────╯</text>
+
+    <text x="58" y="364" fill="#94a3b8">  Steam 目录      D:\Steam</text>
+    <text x="58" y="388" fill="#4ade80">  系统代理        未开启</text>
+    <text x="58" y="420" fill="#f8fafc">  请选择操作</text>
+
+    <text x="58" y="444" fill="#a78bfa">╭──────────────────────────────────────────────────────────╮</text>
+    <text x="58" y="466" fill="#e2e8f0">│  <tspan fill="#ff6b9d">1</tspan>  开始 IPv6 加速  <tspan fill="#4ade80">推荐</tspan>                                │</text>
+    <text x="58" y="488" fill="#e2e8f0">│  <tspan fill="#ff6b9d">2</tspan>  还原 hosts（异常退出后用）                          │</text>
+    <text x="58" y="510" fill="#e2e8f0">│  <tspan fill="#ff6b9d">3</tspan>  环境诊断                                            │</text>
+    <text x="58" y="532" fill="#e2e8f0">│  <tspan fill="#ff6b9d">4</tspan>  打开 GitHub 项目  <tspan fill="#fde047">点 Star</tspan>                    │</text>
+    <text x="58" y="554" fill="#e2e8f0">│  <tspan fill="#ff6b9d">0</tspan>  退出                                                │</text>
+    <text x="58" y="576" fill="#a78bfa">╰──────────────────────────────────────────────────────────╯</text>
+
+    <text x="58" y="608" fill="#67e8f9">  请输入序号并回车 › 1</text>
+    <text x="58" y="634" fill="#94a3b8">  GitHub  github.com/shingja/ustb-steam-ipv6-accelerator</text>
+  </g>
+</svg>

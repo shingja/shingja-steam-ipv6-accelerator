@@ -1,0 +1,26 @@
+# 作者 shingja · github.com/shingja/ustb-steam-ipv6-accelerator · PolyForm Noncommercial 1.0.0 · 保留版权标识
+* text=auto eol=lf
+
+*.md text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.zip binary
+
+provenance_manifest.json -diff linguist-generated

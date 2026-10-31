@@ -1,0 +1,25 @@
+# 作者 shingja · github.com/shingja/shingja-steam-ipv6-accelerator · PolyForm Noncommercial 1.0.0 · 保留版权标识⁠​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌‌‌​‌‌‌​​‌‌​‌‌​‌​​​​‌‌​‌​​‌​‌‌​‌‌‌​​‌‌​​‌‌‌​‌‌​‌​‌​​‌‌​​​​‌​​‌​‌‌​‌​‌‌‌​​‌‌​‌‌‌​‌​​​‌‌​​‌​‌​‌‌​​​​‌​‌‌​‌‌​‌​​‌​‌‌​‌​‌‌​‌​​‌​‌‌‌​​​​​‌‌‌​‌‌​​​‌‌​‌‌​​​‌​‌‌​‌​‌‌​​​​‌​‌‌​​​‌‌​‌‌​​​‌‌​‌‌​​‌​‌​‌‌​‌‌​​​‌‌​​‌​‌​‌‌‌​​‌​​‌‌​​​​‌​‌‌‌​‌​​​‌‌​‌‌‌‌​‌‌‌​​‌​​​‌​‌‌‌‌​​‌‌​​‌​​​‌‌​​​​​​‌‌​​‌​​​‌‌​‌‌​​​‌​‌‌‌‌​‌‌‌​‌‌​​​‌‌​​​‌⁠
+cff-version: 1.2.0
+title: "北京科技大学校园网 IPv6 下载 Steam 加速"
+message: "如果这个工具对你有帮助，请按以下格式引用。"
+type: software
+authors:
+  - alias: shingja
+    name: shingja
+version: "1.0.0"
+date-released: "2026-11-01"
+repository-code: "https://github.com/shingja/shingja-steam-ipv6-accelerator"
+url: "https://github.com/shingja/shingja-steam-ipv6-accelerator"
+license: PolyForm-Noncommercial-1.0.0
+keywords:
+  - USTB
+  - 北京科技大学
+  - Steam
+  - IPv6
+  - CERNET2
+  - campus network
+  - download accelerator
+abstract: >-
+  面向北京科技大学校园网 / CERNET2 的 Windows 学习工具，通过本地 hosts 映射与回环转发，
+  让 Steam 内容下载走 IPv6 出口。仅使用 Python 标准库，可还原，不修改 Steam 客户端。
+  仅用于学习 IPv6、DNS、hosts、TCP 转发与网络工程；禁止用于绕过校园网认证、计费或流量管理。

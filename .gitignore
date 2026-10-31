@@ -1,0 +1,63 @@
+# 作者 shingja · github.com/shingja/ustb-steam-ipv6-accelerator · PolyForm Noncommercial 1.0.0 · 保留版权标识
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 运行产物与本机状态（绝不入库）
+hosts.backup.txt
+hosts.txt
+*.log
+caddy.log
+S302.log
+*.pem
+*.key
+*.crt
+*.csr
+*.crl
+*.caddy
+*.xdb
+*.dll
+
+# 第三方工具（不随仓库分发）
+Steamcommunity_302/
+UsbEAm Hosts Editor/
+third_party/bin/
+
+# 发布产物
+release/*.zip
+release/*.tar.gz
+release/*.7z
+release/*.tmp
+release/SHA256SUMS
+release/BUILD_INFO.json
+release/*.sig
+release/policy.json
+build/
+
+# 本地 / CI 备份
+backup/
+BUILD_INFO.json
+policy.json
+app/policy.json
+internal/
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# 环境
+.env
+.env.*
